@@ -1,0 +1,2 @@
+# Colorimeter-Error-Estimation
+Four color calibration is commonly implenmented in 2D imaging colorimeters. A 3*3 (or 3*4) color matrix is generated afterwards to compensate spectral offset between color filter and CIE color matching function. Spectral offset between DUT and calibration light source (CLS) can introduce errors in both luminance and chromaticity. This python library can be used to calculate these errors based on the colorimeter spetral response and CLS&amp;DUT spectra.
